@@ -1,0 +1,7 @@
+version: '3'
+services:
+  python-cheating-janken:
+    container_name: python-cheating-janken
+    build: ./
+    volumes:
+    - ./:/usr/src/app
